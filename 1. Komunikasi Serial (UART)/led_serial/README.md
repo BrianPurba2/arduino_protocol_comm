@@ -1,1 +1,42 @@
+<h2>LED Blink dengan Serial Monitor</h2>
 
+Serial monitor dalam Arduino IDE adalah fitur bawaan berbentuk jendela pop-up yang memfasilitasi komunikasi dua arah antara papan Arduino dan komputer. Alat ini memungkinkan pengguna mengirim data dari Arduino ke PC (misalnya hasil sensor) dan mengirim perintah dari PC ke Arduino (misalnya tombol kontrol) secara real-time melalui kabel USB.
+
+<img width="1920" height="991" alt="serial_uart _ Arduino IDE 2 3 8 05_04_2026 19_53_53" src="https://github.com/user-attachments/assets/550a9abd-dac1-40b9-adee-df0689b55969" />
+
+<h3>Alat dan Bahan</h3>
+<p>Dalam percobaan sederhana ini, berikut alat dan bahan yang digunakan:</p>
+
+<div align="center">
+<table border="1" cellpadding="10" cellspacing="0" width="100%">
+  <tr>
+    <th>Arduino</th>
+  </tr>
+
+  <tr align="center">
+    <td>
+      <img width="333" height="236" alt="arduino_uno" src="https://github.com/user-attachments/assets/b5b0c26f-9547-421f-81d7-797fc487e10c" /><br>
+    </td>
+    <td>
+      <img width="108" height="268" alt="RedLED_Fritzing" src="https://github.com/user-attachments/assets/a1726590-6b0c-49b8-ab84-96ff8e243ae2" /><br>
+    </td>
+    <td>
+      <img width="224" height="65" alt="Resistor220_Fritzing" src="https://github.com/user-attachments/assets/b925fae3-2191-4f7e-96b1-796ea142c62f" /><br>
+    </td>
+    <td>
+      <img width="500" height="326" alt="breadboard" src="https://github.com/user-attachments/assets/0d1b7929-81f3-4bb2-a0de-757ef79bc916" /><br>
+    </td>
+    <td>
+      <img width="229" height="344,5" alt="pngwing com" src="https://github.com/user-attachments/assets/0acc9c70-b288-4152-864e-e7bc8372ad91" /><br>
+    </td>
+  </tr>
+
+  <tr align="center">
+    <td>Arduino Uno</td>
+    <td>Red LED</td>
+    <td>220Ω Resistor atau lainnya</td>
+    <td>Breadboard Mini</td>
+    <td>Kabel Jumper</td>
+  </tr>
+</table>
+</div>
