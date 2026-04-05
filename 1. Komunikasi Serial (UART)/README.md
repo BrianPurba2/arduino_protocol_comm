@@ -6,7 +6,9 @@ Komunikasi serial merupakan salah satu cara paling umum yang digunakan untuk ber
 
 Universal Asynchronous Receiver-Transmitter (UART) adalah jenis protokol komunikasi yang memungkinkan pengiriman data dari Arduino ke perangkat lainnya melalui metode klasik yaitu `Serial.print()`. UART memungkinkan komunikasi serial asynchronous, di mana format data dan kecepatan transmisinya dapat diatur. UART merupakan salah satu protokol serial paling awal, dan meskipun di banyak kasus telah digantikan oleh SPI dan I2C, UART masih banyak digunakan untuk aplikasi dengan kecepatan dan throughput rendah karena sangat sederhana, murah, dan mudah diimplementasikan.
 
-<img width="890" height="501" alt="parallelSerial" src="https://github.com/user-attachments/assets/e44c4baa-b56c-438b-adeb-5f6dc8cf9544" />
+<div align="center">
+  <img width="890" height="501" alt="parallelSerial" src="https://github.com/user-attachments/assets/e44c4baa-b56c-438b-adeb-5f6dc8cf9544" />
+</div>
 
 UART beroperasi dengan mengirimkan data sebagai serangkaian bit, termasuk start bit, data bit, bit paritas (opsional), dan stop bit. Berbeda dengan komunikasi paralel, di mana beberapa bit dikirimkan secara bersamaan, UART mengirimkan data secara serial, yaitu satu bit pada satu waktu. Seperti namanya, protokol ini bekerja secara asinkron, yang berarti tidak bergantung pada sinyal clock bersama. Sebagai gantinya, UART menggunakan baud rate yang telah ditentukan untuk mengatur timing setiap bit data.
 
